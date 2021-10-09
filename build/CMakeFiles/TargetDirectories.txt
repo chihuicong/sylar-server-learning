@@ -1,0 +1,4 @@
+/home/chihuicong/server/build/CMakeFiles/edit_cache.dir
+/home/chihuicong/server/build/CMakeFiles/rebuild_cache.dir
+/home/chihuicong/server/build/CMakeFiles/test01.dir
+/home/chihuicong/server/build/CMakeFiles/sylar.dir

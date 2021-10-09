@@ -1,0 +1,5 @@
+The target name “test“ is reserved or not valid for certain CMake features:
+解决：保留字段
+https://blog.csdn.net/mengxt169/article/details/110622468
+
+

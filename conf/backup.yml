@@ -1,0 +1,62 @@
+logs:
+    - name: root
+      level: info
+      formatter: "%d%T%m%n"
+      appender:
+          - type: FileLogAppender
+            path: log.txt
+          - type: StdoutLogAppender
+    - name: system
+      level: debug
+      formatter: "%d%T%m%n"
+      appender:
+          - type: FileLogAppender
+            path: log.txt
+          - type: StdoutLogAppender
+
+system:
+    port: 9900
+    value: 15
+    vector:
+        - 10
+        - 30
+    list: [12,13]
+    set: [4,20,20]
+    unordered_set: [3,24,3]
+    map:
+        k: 98
+        k1: 4
+        k2: 20
+    umap:
+        c: 4
+        h: 4
+        a: 20
+class:
+    person:
+        name: acong
+        age: 23
+        sex: true
+    cmap:
+        sa:
+            name: chc
+            age: 18
+            sex: false
+        sb:
+            name: chb
+            age: 40
+            sex: true
+    vmap:
+        sa:
+            - name: c
+              age: 18
+              sex: true
+            - name: b
+              age: 19
+              sex: false
+        sb:
+            - name: d
+              age: 18
+              sex: true
+            - name: e
+              age: 19
+              sex: false
